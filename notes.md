@@ -14,5 +14,7 @@ ii. Grids
 - The command (col-4) spans the width of the column to 4 out of 12 column spaces
 - Through adjustings the column classes, we can specify what happens to the breakpoints on each device
 For example: <div class="col-sm-6"> ---> This means on a large device, the column will take 6 columns out of 12.
-- 
+- col-auto specifies the column width to the natural size of the box
+- The <div class="row row-cols-{col_number}"> is a faster way to develop the grid system for a website
+- For inner nesting, the data just have to follow the -row, -col structure
 
