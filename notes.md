@@ -53,5 +53,13 @@ ii. Typography
 - We can also make abbreviations, blockquotes, and list typography good
 
 iii. Images
+
+
+3. Forms
+- Bootstrap for forms is a ton of styles for creating form layouts, styles, components, and form function.
+
+i. Form control
+- Since an input field depends on the data that is being collected, we use the input and label tag for text and other text related input.
+- The class of the label is set to "form-label" or "col-form-label" and the for the input, "form-control" or "col-form-control"
 - 
 
