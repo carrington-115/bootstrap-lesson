@@ -73,3 +73,7 @@ i. Form control
 - For datalist, the input field list attribute is set to the id of the datalist id and the input field still take form control.
 - For a dropdown, the select container class attribute is "form-select" and the label attribute is still set to form-label.
 - For checkbox, radio buttons, and switches, the bootstrap classes look familiar. Their main container is set to "form-check"; the form input is set to "form-check-input"; the form label is set to "form-check-label"; for switches, the input receives an addition attribute, called role="switch" and the class receives an additonal style "form-control" on the switch container form class. e.g <input type="checkbox" class="form-check-input" role="switch"  />
+
+
+ii. Ranges
+- 
