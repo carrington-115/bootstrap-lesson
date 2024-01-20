@@ -40,3 +40,18 @@ vi. CSS Grids
 - To add a grid, <div class="grid"></div>
 - To add a grid column, "g-col-{breakpoint}-{number}"
 
+
+2. Contents
+i. Reboot
+- To do contents in bootstrap, it is important to set a configuration where all the config styles like fonts, font family, and other important constants for the project are store.
+
+ii. Typography
+- This include all the global settings, fonts, and other typography-related groups
+- To set the font of a tag to a heading, just set the class to "h{num}" e.g <span class="h2"> 
+- Display also has 6 types in bootstrap <div class="display{number}">
+- To make a paragraph stand out, add lead to it. e.g. <p class="lead">
+- We can also make abbreviations, blockquotes, and list typography good
+
+iii. Images
+- 
+
