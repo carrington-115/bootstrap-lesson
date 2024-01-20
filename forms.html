@@ -139,7 +139,195 @@
         </div>
       </div>
 
-      
+      <!--color picker form and other forms-->
+      <br />
+      <hr />
+      <br />
+      <div class="row">
+        <div class="col-4 mb-3">
+          <p class="mark h5">Color Picker Form</p>
+          <form>
+            <fieldset class="mb-3">
+              <label for="colorpicker">Color Picker</label>
+              <input
+                type="color"
+                class="form-control form-control-color"
+                name="colorpicker"
+                value="#fffff"
+              />
+            </fieldset>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </form>
+        </div>
+        <div class="col-4">
+          <p class="mark h3">Data List Form</p>
+          <form>
+            <label for="search-country" class="form-label"
+              >Search country</label
+            >
+            <input
+              type="text"
+              list="data-list-option"
+              id="search-list-option"
+              class="form-control"
+              placeholder="Search Country"
+              name="search-country"
+            />
+            <datalist id="data-list-option" class="mb-3">
+              <option value="Cameroon">Cameroon</option>
+              <option value="Nigeria">Nigeria</option>
+              <option value="South Africa">South Africa</option>
+              <option value="USA">USA</option>
+              <option value="UK">UK</option>
+              <option value="India">India</option>
+            </datalist>
+            <br />
+            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+          </form>
+        </div>
+        <div class="col-4">
+          <p class="mark h5">The select form</p>
+          <form>
+            <label for="select-numbers" class="form-label">Select number</label>
+            <select
+              name="select-numbers"
+              aria-label="select-number-field"
+              class="form-select mb-3"
+            >
+              <option selected>--select a number--</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+              <option value="6">Six</option>
+              <option value="7">Seven</option>
+            </select>
+            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+          </form>
+        </div>
+
+        <!--Radio and Checkbox-->
+        <div class="col-4">
+          <p class="mark h5">Checkbox and Radio buttons</p>
+          <form>
+            <p class="h4">Language</p>
+            <fieldset class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="english"
+                name="english"
+                aria-label="english language"
+                checked
+              />
+              <label for="english" class="form-check-label">English</label>
+            </fieldset>
+            <fieldset class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="French"
+                name="French"
+                aria-label="French language"
+                disabled
+              />
+              <label for="French" class="form-check-label">French</label>
+            </fieldset>
+            <fieldset class="form-check mb-5">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="bilingual"
+                name="bilingual"
+                aria-label="bilingual"
+              />
+              <label for="bilingual" class="form-check-label">Bilingual</label>
+            </fieldset>
+
+            <!--Radio buttons-->
+            <p class="h6">Gender</p>
+            <hr />
+            <fieldset class="form-check form-check-inline">
+              <input
+                type="radio"
+                class="form-check-input"
+                value="unselected"
+                name="gender"
+                aria-label="unselected gender. select your gender"
+                disabled
+              />
+              <label for="gender" class="form-check-label">none</label>
+            </fieldset>
+            <fieldset class="form-check form-check-inline">
+              <input
+                type="radio"
+                class="form-check-input"
+                value="Male"
+                name="gender"
+                aria-label="male gender selection"
+              />
+              <label for="gender" class="form-check-label">Male</label>
+            </fieldset>
+            <fieldset class="form-check form-check-inline mb-10">
+              <input
+                type="radio"
+                class="form-check-input"
+                value="Female"
+                name="gender"
+                aria-label="female gender selection"
+              />
+              <label for="gender" class="form-check-label">Female</label>
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <!--Switches-->
+        <div class="col-4">
+          <p class="h5 mark">Form switches and other components</p>
+          <fieldset class="form-check form-switch d-flex align-items-center">
+            <input
+              type="checkbox"
+              name="location"
+              value="location-on"
+              role="switch"
+              aria-label="turn on your location"
+              class="form-check-input"
+            />
+            <label for="location" class="col-form-label"
+              >turn on location</label
+            >
+          </fieldset>
+          <fieldset class="form-check form-switch d-flex align-items-center">
+            <input
+              type="checkbox"
+              name="programmer"
+              value="programmer"
+              role="switch"
+              aria-label="Are you a programmer"
+              class="form-check-input"
+              checked
+            />
+            <label for="programmer" class="col-form-label"
+              >turn on location</label
+            >
+          </fieldset>
+          <fieldset class="form-check form-switch d-flex align-items-center">
+            <input
+              type="checkbox"
+              name="location"
+              value="location-on"
+              role="switch"
+              aria-label="turn on your location"
+              class="form-check-input"
+              disabled
+            />
+            <label for="location" class="col-form-label"
+              >turn on location</label
+            >
+          </fieldset>
+        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
