@@ -26,3 +26,9 @@ iii. Columns
 - To send a part of the row to the next line, just add an element and specify the width to 100% (w-100%)
 - We can order through adding the order-{number} class. The number must not be sequential. The order is performed by checking the value of the number
 
+iv. Controlling Gutter
+- We can control vertically or horizontally between the page elements
+- We can control horizontal gutters by passing gx-{number}; vertical by gy-{number}
+- We can control both the horizontal and vertical gutters by g-{number}
+- 
+
