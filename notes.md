@@ -30,5 +30,13 @@ iv. Controlling Gutter
 - We can control vertically or horizontally between the page elements
 - We can control horizontal gutters by passing gx-{number}; vertical by gy-{number}
 - We can control both the horizontal and vertical gutters by g-{number}
-- 
+- We can control the gutters further even with responsiveness at breakpoints e.g. g-sm-10
+
+v. Utitlities
+- displaying flex in bootstrap is by adding the "d-flex" to the class. Then we use the align-items-{position} and "justify-contents-{position}"
+- We use the p-{number} for padding.
+
+vi. CSS Grids
+- To add a grid, <div class="grid"></div>
+- To add a grid column, "g-col-{breakpoint}-{number}"
 
