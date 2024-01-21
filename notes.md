@@ -74,6 +74,11 @@ i. Form control
 - For a dropdown, the select container class attribute is "form-select" and the label attribute is still set to form-label.
 - For checkbox, radio buttons, and switches, the bootstrap classes look familiar. Their main container is set to "form-check"; the form input is set to "form-check-input"; the form label is set to "form-check-label"; for switches, the input receives an addition attribute, called role="switch" and the class receives an additonal style "form-control" on the switch container form class. e.g <input type="checkbox" class="form-check-input" role="switch"  />
 
+4. components
+i. The acordion
+- To set an accordion on a section of the page, the accordion container must be set. it's class must be set to "accordion". Then in the accordion container, you can add multiple acordion elements. 
+- An accordion element has 2 parts, a header and a body. The header is a div with class "accordion-header" and the header contains of a button with the "accordion-button" class. the button takes other attributes like the type, data-bs-toggle, data-bs-control, aria-controls, aria-collapse.
+- The accordion body has the class "accordion-collapse" with a data-bs-parent attribute pointing to the id of the accordion container. In the accrodion is the "accordion-body" in a div component.
 
-ii. Ranges
-- 
+ii. alerts
+- They provide contextual data for user actions.

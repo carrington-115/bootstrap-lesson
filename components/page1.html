@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Components page 1</title>
+    <meta name="viewport" content="width=device-with, scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!--Using the Acordion-->
+      <div class="row m-10-0">
+        <p class="h3 mark text-decoration-underline mb-5">Components</p>
+        <hr class="mb-5" />
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <p class="h3 mark text-center">Accordions</p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Accordion 1
+                </button>
+              </h2>
+              <div
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+                id="collapseOne"
+              >
+                <p class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+                  deserunt asperiores provident cumque quam neque magnam ipsum
+                  amet possimus? Quo fuga id saepe eligendi similique
+                  exercitationem cum doloribus blanditiis necessitatibus.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#exampleTwoContent"
+                  aria-collapse="true"
+                  data-controls="exampleTwoContent"
+                >
+                  Click here!
+                </button>
+              </h2>
+              <div
+                class="accordion-collapse collapse"
+                id="exampleTwoContent"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Provident recusandae sapiente est natus, culpa consequuntur
+                  aspernatur eaque minima nam corporis! Repellendus, esse beatae
+                  libero modi quos nam iure minima quasi?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <p class="h3 mark text-center">Alerts</p>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
