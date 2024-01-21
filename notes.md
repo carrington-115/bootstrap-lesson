@@ -83,3 +83,9 @@ i. The acordion
 ii. alerts
 - They provide contextual data for user actions.
 - the alert is just a div with a class of "alert alert-{type}" and role="alert"
+
+iii. Badges
+- Badges are divs that just need to take class of "badge bg-{color}"
+
+iv. Bread crumbs
+- 
